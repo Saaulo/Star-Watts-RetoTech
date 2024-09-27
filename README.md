@@ -1,7 +1,10 @@
 # Preview 
 La web se puede ver de dos maneras
-Mediante GitHub Pages: http://starwatts.saaulo.me
+Mediante GitHub Pages:
+
+ http://starwatts.saaulo.me
 Mediante Terceros:
+
 https://starwatts.saaulo.live
 
 # Star Watts - RetoTech Endesa
