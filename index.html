@@ -111,6 +111,20 @@
             0% { transform: translateY(100vh) translateX(-50px); }
             100% { transform: translateY(-100px) translateX(50px); }
         }
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            overflow: hidden;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
     </style>
 </head>
 <body class="bg-black text-white overflow-x-hidden">
@@ -143,13 +157,11 @@
         <div class="container mx-auto px-4">
             <div class="parallax-section" data-offset="50">
                 <h2 class="text-4xl md:text-5xl font-bold mb-10 text-center text-white">Tráiler Oficial</h2>
-                <div class="relative pt-[56.25%] rounded-lg overflow-hidden shadow-2xl neon-border">
+                <div class="video-container rounded-lg overflow-hidden shadow-2xl neon-border">
                     <iframe 
                         id="youtube-trailer"
-                        class="absolute inset-0 w-full h-full"
                         src="https://www.youtube.com/embed/sp3YdCLK1x4" 
                         title="Star Watts Trailer"
-                        frameborder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                         allowfullscreen
                     ></iframe>
