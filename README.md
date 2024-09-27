@@ -28,7 +28,7 @@ JavaScript: Para las funcionalidades interactivas.
 
 Frameworks y Librerías:
 
-Bootstrap: Para un diseño responsivo.
+TailwindCSS: Para un diseño responsivo y bonito.
 
 Font Awesome: Para iconos.
 
